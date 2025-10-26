@@ -211,3 +211,11 @@ li {
         transform: rotateX(13deg) rotateY(360deg);
     }
 }
+
+body {
+  background-image: url("ruta/de/tu/imagen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;       /* Hace que ocupe toda la pantalla */
+  background-position: center;  /* Centra la imagen */
+  background-attachment: fixed; /* (Opcional) Hace que el fondo quede fijo al hacer scroll */
+}
